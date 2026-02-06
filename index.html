@@ -26,9 +26,24 @@
                     <li><a href="#" class="nav__link login">Login</a></li>
                     <li><a href="#" class="nav__link nav__link--primary">Sign Up</a></li>
                 </ul>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="menu">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fa-solid fa-times"></i>
+                    </button>
+                    <ul class="menu__links">
+                        <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">About</a></li>
+                        <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Blog</a></li>
+                        <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Pricing</a></li>
+                        <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Contact Us</a></li>
+                        <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Sign Up</a></li>
+                        <li class="menu__list"><a href="#" class="menu__link menu__link--primary" onclick="closeMenu()">Login</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <div class="menu"></div>
         <header>
             <div class="container">
                 <div class="row">
@@ -67,7 +82,7 @@
                                         class="service__img">
                                 </figure>
                                 <div class="service__text">
-                                    <h2 class="sub_title">Secure</h2>
+                                    <h2 class="sub__title">Secure</h2>
                                     <p class="sub__para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eaque quod doloremque autem magnam.</p>
                                 </div>
@@ -80,7 +95,7 @@
                                         class="service__img">
                                 </figure>
                                 <div class="service__text">
-                                    <h2 class="sub_title">24/7 Support</h2>
+                                    <h2 class="sub__title">24/7 Support</h2>
                                     <p class="sub__para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eaque quod doloremque autem magnam.</p>
                                 </div>
@@ -93,7 +108,7 @@
                                         class="service__img">
                                 </figure>
                                 <div class="service__text">
-                                    <h2 class="sub_title">Customizable</h2>
+                                    <h2 class="sub__title">Customizable</h2>
                                     <p class="sub__para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eaque quod doloremque autem magnam.</p>
                                 </div>
@@ -106,7 +121,7 @@
                                         class="service__img">
                                 </figure>
                                 <div class="service__text">
-                                    <h2 class="sub_title">Reliable</h2>
+                                    <h2 class="sub__title">Reliable</h2>
                                     <p class="sub__para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eaque quod doloremque autem magnam.</p>
                                 </div>
@@ -119,7 +134,7 @@
                                         class="service__img">
                                 </figure>
                                 <div class="service__text">
-                                    <h2 class="sub_title">Fast</h2>
+                                    <h2 class="sub__title">Fast</h2>
                                     <p class="sub__para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eaque quod doloremque autem magnam.</p>
                                 </div>
@@ -132,7 +147,7 @@
                                         class="service__img">
                                 </figure>
                                 <div class="service__text">
-                                    <h2 class="sub_title">Easy</h2>
+                                    <h2 class="sub__title">Easy</h2>
                                     <p class="sub__para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eaque quod doloremque autem magnam.</p>
                                 </div>
